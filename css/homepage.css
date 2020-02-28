@@ -1,0 +1,25 @@
+.btn-circle.categories-btn-xl {
+	width: 100px; 
+	height: 100px; 
+	/*padding: 10px 16px; */
+	border-radius: 50px; 
+	font-size: 12px; 
+	text-align: center;
+	/*display: block; !important*/
+}
+/*	.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 50px; 
+    font-size: 8px; 
+    text-align: center; 
+} */
+
+/*	.my-row {
+	border: 3px solid red;
+}
+
+.my-col {
+	border: 3px dotted blue;
+}*/
