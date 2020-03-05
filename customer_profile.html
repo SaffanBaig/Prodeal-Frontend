@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Page</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/53a8240c9e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="bg-primary text-center" style="height: 40px;">
+      Prodeal
+    </header>
+    <div class="row mx-auto mt-5" style="width: 80%; height: 100%;">
+      <div class="col-12 border">
+        <div class="pt-4 text-center">
+          <div class="row">
+            <div class="col-2">
+              <a href="#"><i class="fas fa-arrow-left" style="font-size:25px; color: #000;"></i></a>
+            </div>
+            <div class="col-8 text-center">
+              <i class="fas fa-user-circle" style="font-size: 54px; color: #000;"></i>
+          <h3>Customer Name</h3>
+          <p class="lead">Email@gmail.com</p>
+            </div>
+            <div class="col-2">
+              <a type="button" data-toggle="modal" data-target="#editModal"><i class="fas fa-pen"></i></a>
+            </div>
+          </div>
+          <hr>
+          <div class="row py-5">
+            <div class="col-3 py-3" style="font-size: 14px;">Name</div>
+            <div class="col-7 py-3 border-bottom font-weight-bold">Mirza Saffan Baig</div>
+            <div class="col-2 py-3"><a type="button" data-toggle="modal" data-target="#editModal"><i class="fas fa-pen"></i></a></div>
+            <div class="col-3 py-3" style="font-size: 14px;">Email</div>
+            <div class="col-7 py-3 border-bottom font-weight-bold">Email@gmail.com</div>
+            <div class="col-2 py-3"><a type="button" data-toggle="modal" data-target="#editModal"><i class="fas fa-pen"></i></a></div>
+            <div class="col-3 py-3" style="font-size: 14px;">Contact</div>
+            <div class="col-7 py-3 border-bottom font-weight-bold">03001234567</div>
+            <div class="col-2 py-3"><a type="button" data-toggle="modal" data-target="#editModal"><i class="fas fa-pen"></i></a></div>
+            <div class="col-3 py-3" style="font-size: 14px;">City</div>
+            <div class="col-7 py-3 border-bottom font-weight-bold">Karachi</div>
+            <div class="col-2 py-3"><a type="button" data-toggle="modal" data-target="#editModal"><i class="fas fa-pen"></i></a></div>
+          </div>
+
+        </div>
+        <!-- Content div end -->
+
+    </div>
+    <!-- Col end -->
+    </div>
+    <!-- Row end -->
+
+    <!-- Edit Modal -->
+ <div class="modal fade text-center" id="editModal" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="editModalLabel">{{Edit Name}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form>
+      <div class="modal-body">
+          <input type="text" class="form-control" placeholder="Edit here">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-block btn-success">Edit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/jquery.min.js"></script>
+</body>
+</html>

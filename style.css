@@ -1,24 +1,23 @@
+/* Customer Listing Page */
 body{
     background-color: #fff;
 }
 .featured{
-    background-color: #f5fffd;
+    background-color: #fcfafa;
     padding: 10px;
 }
 
 .regular{
-    background-color: #f5fffd;
+    background-color: #fcfafa;
     padding: 10px;
 }
 .primary-color{
-    background-color: #22e3b6;
+    background-color: purple;
+    color: #fff;
 }
 
-hr{
-    
-}
-
-/* Customer Detail Page */
-.detail_page{
-
+#sidebar{
+    height: 700px;
+    width: 100%;
+    background-color: #fff;
 }
